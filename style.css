@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to right, rgb(6, 109, 109), 40%,  rgb(31, 1, 68));
+    
+}
+h4 {
+  color: white;
+}
+p {
+  color: white;
+}
+label {
+  color: white;
+}
+a {
+  color: white;
+}
+.colorhint-gradient {
+    background: linear-gradient(to top, rgb(2, 48, 48), 40%, rgb(31, 1, 68));
+  }
+  .card-body {
+    background-color: #1f1f1f;
+    
+  }
+
+.card-rounded {
+  border: 1px solid black;
+}
+
+  @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+  .button {
+    top:50%;
+    border:1px solid black;
+    border-radius: 8px; 
+    padding:10px;
+    color: white;
+    background-image: linear-gradient(to top, rgb(0, 63, 63), 40%, rgb(31, 1, 68) );
+    min-height:30px; 
+    min-width: 350px;
+    }
+
+    .button2 {
+      top:50%;
+      border:1px solid black;
+      border-radius: 8px; 
+      padding:10px;
+      color: white;
+      background-image: linear-gradient(to top, rgb(0, 63, 63), 40%, rgb(31, 1, 68) );
+      min-height:30px; 
+      min-width: 100px;
+      }
